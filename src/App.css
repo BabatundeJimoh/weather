@@ -34,19 +34,15 @@
 }
 .App {
   background-color: #282c34;
-  height: 100vh;
 }
 .hello {
-  background-image: url("./photos/black.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgb(4, 109, 122);
   color: rgb(255, 255, 255);
 
-  height: 100vh;
-}
-.list {
-  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  min-height: 100vh;
 }
 .search-input {
   width: 60px;
